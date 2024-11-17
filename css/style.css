@@ -1,0 +1,101 @@
+/* إعدادات الصفحة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* إعدادات الرأس */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* إعدادات البطل (hero section) */
+.hero {
+    background-color: #eeeeee;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #003366;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* إعدادات المقالات */
+.articles {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.articles h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #003366;
+}
+
+.article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #003366;
+}
+
+.article h4 {
+    font-size: 24px;
+}
+
+.article h4 a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.article p {
+    font-size: 16px;
+    color: #555555;
+}
+
+/* إعدادات التذييل */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
